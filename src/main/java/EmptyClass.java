@@ -1,7 +1,11 @@
+import java.time.LocalDate;
+
 public class EmptyClass {
 
     public static void main(String[] args) {
-        System.out.println("Hello second life");
+
+        LocalDate today=LocalDate.now();
+        System.out.println("La fecho de hoy es: "+today);
     }
 
 }
